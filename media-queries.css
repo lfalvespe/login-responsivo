@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* Device break points
+
+phone: 600px ate 768px
+tablet: 768px ate 992px
+desktop: 992px ate 1200px
+grande: acima de 1200px
+
+*/
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    
+    main {
+        width:90vw;
+    }
+
+    .imagem {
+        float:left;
+        width:40%;
+        height:100%;
+        background-position: center center;
+    }
+    
+    .formulario {
+        float:right;
+        width:60%;
+        height: 100%;
+    }
+
+    .formulario h1 {
+        margin-top:30px;
+        background-color: BEIGE;
+        font-size: 2em;
+    }
+
+    .formulario > p {
+        margin-top: 40px;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2em;
+    }
+
+    .login {
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    #usuario {
+        width: 300px;
+    }
+
+    .password {
+        padding: 10px;
+    }
+
+    #senha {
+        width: 300px;
+    }
+
+    #btnEntrar {
+        margin-top: 20px;
+        padding: 16px;
+    }
+
+    .formulario a {
+        margin-top: 10px;
+    }
+   
+}
+
+@media screen and (min-width:992px) {
+    main {
+        width:990px;
+    }
+
+    .imagem {
+        float:left;
+        width:40%;
+        height:100%;
+        background-position: center center;
+    }
+    
+    .formulario {
+        float:right;
+        width:60%;
+        height: 100%;
+    }
+
+    .formulario h1 {
+        margin-top:30px;
+        background-color: BEIGE;
+        font-size: 2em;
+    }
+
+    .formulario > p {
+        margin-top: 50px;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2em;
+    }
+
+    .login {
+        margin-top: 50px;
+        padding: 10px;
+    }  
+    
+    #usuario {
+        width: 300px;
+    }
+
+    #senha {
+        width: 300px;
+    }
+
+    .password {
+        padding: 10px;
+    }
+
+    #btnEntrar {
+        margin-top: 20px;
+        padding: 16px;
+    }
+
+    .formulario a {
+        margin-top: 10px;
+    }
+   
+}
+
+
+
+

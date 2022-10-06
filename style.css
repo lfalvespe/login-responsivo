@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+
+:root {
+    --verde: #49a09d;
+    --roxo: #823bb1;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5575a6;
+    height: 100vh;
+    width: 100vw;
+    color: #19405a;
+}
+
+main {
+    width: 320px;
+    height: 500px;
+    position:absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.358);
+}
+
+.imagem {
+    display: block;
+    background-image: url(imagens/pexels-kampus-production-5940841.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40%;
+}
+
+.formulario {
+    display: block;
+    background-color: #e2ccc1;
+    height: 60%;
+
+}
+
+.formulario h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+.formulario > p {
+    width: 90%;
+    margin: auto;
+    margin-top: 3px;
+    text-align: justify;
+    font-size: .9em;
+    background-color: #1f4f6e;
+    color: white;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.337);
+    border-radius: 0px 20px;
+}
+
+.login {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #fec342;
+    padding: 5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#usuario {
+    width: 200px;
+    border-top-right-radius: 10px;
+}
+
+#person {
+    color: white;
+    font-size: 1.8em;
+    background-color: rgba(0, 0, 0, 0.848);
+    border-top-left-radius: 5px;
+    height: 100%;
+}
+
+.password {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    background-color: #9da2b8;
+    padding: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#key {
+    color: white;
+    font-size: 1.8em;
+    background-color: rgba(0, 0, 0, 0.848);
+    margin-left: -11px;
+    border-bottom-left-radius: 5px;
+}
+
+#senha {
+    width: 200px;
+    border-bottom-right-radius: 5px;
+}
+
+input {
+    padding: 5px;
+    border: none;
+}
+
+label {
+    margin-left: 5px;
+}
+
+#submit {
+    margin-top: 22px;
+    text-align: center;
+}
+
+#btnEntrar {
+    width: 90%;
+    background-color: #8e4652;
+    font-size: 1.1em;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.449);
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#btnEntrar:hover {
+    background-color: #ae7e83;
+}
+
+#mail {
+    font-size: 1.1em;
+}
+
+.formulario a {
+    display: block;
+    margin-top: 7px;
+    text-decoration: none;
+    color: #703c42;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.388);
+}
+
+.formulario a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela login</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+</head>
+<body>
+
+        <main>
+
+            <section class="imagem">
+                
+            </section>
+
+            <section class="formulario">
+                <h1>Login</h1>
+                <p>Bem vindo novamente. Faça login para acessar sua conta.</p>
+            
+                <div class="login">
+                    <i class="material-icons" id="person">person</i><input type="email" name="usuario" id="usuario" placeholder="usuario@email.com" autocomplete="email">
+                    <label for="usuario">Usuário</label>
+                </div>
+    
+    
+                <form action="login.php" method="_GET" autocomplete="on" required>
+                    <div class="password">
+                        <i class="material-icons" id="key">key</i><input type="password" name="senha" id="senha" placeholder="senha" autocomplete="current-password" required>
+                        <label for="senha">Senha</label>
+                    </div>
+                    
+
+                    <p id="submit">
+                        <input type="button" id="btnEntrar" value="Entrar" onclick="submit">
+                            <br>
+                        <a href="#">Esqueci a senha <i class="material-icons" id="mail">mail</i></a>  
+                    </p>
+                    
+                </form>
+            </section>
+
+        </main>
+
+        
+    
+    
+</body>
+</html>
