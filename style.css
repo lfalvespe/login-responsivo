@@ -21,7 +21,7 @@ body {
 
 main {
     width: 320px;
-    height: 500px;
+    height: 550px;
     position:absolute;
     background-color: white;
     top: 50%;
@@ -47,7 +47,7 @@ main {
 
 }
 
-.formulario h1 {
+.formulario > h1 {
     text-align: center;
     padding: 5px;
 }
@@ -55,7 +55,7 @@ main {
 .formulario > p {
     width: 90%;
     margin: auto;
-    margin-top: 3px;
+    margin-top: 5px;
     text-align: justify;
     font-size: .9em;
     background-color: #1f4f6e;
@@ -70,7 +70,7 @@ main {
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 26px;
     background-color: #fec342;
     padding: 7px;
     border-top-left-radius: 15px;
@@ -125,7 +125,7 @@ label {
 }
 
 #submit {
-    margin-top: 22px;
+    margin-top: 30px;
     text-align: center;
 }
 
