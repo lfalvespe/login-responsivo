@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #5575a6;
+    background-image: linear-gradient(45deg, #5575a6,#f7d17f);
     height: 100vh;
     width: 100vw;
     color: #19405a;
