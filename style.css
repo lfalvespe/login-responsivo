@@ -39,18 +39,18 @@ main {
     display: block;
     background-color: #e2ccc1;
     height: 60%;
-
 }
 
 .formulario > h1 {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
+    font-size: 1.7em;
 }
 
 .formulario > p {
     width: 90%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 6px;
     text-align: justify;
     font-size: .9em;
     background-color: #1f4f6e;
@@ -65,7 +65,7 @@ main {
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-top: 26px;
+    margin-top: 24px;
     background-color: #f7d17f;
     padding: 7px;
     border-top-left-radius: 15px;
@@ -74,7 +74,7 @@ main {
 }
 
 #usuario {
-    width: 184px;
+    width: 188px;
     border-top-right-radius: 10px;
 }
 
@@ -106,7 +106,7 @@ main {
 }
 
 #senha {
-    width: 184px;
+    width: 188px;
     border-bottom-right-radius: 5px;
 }
 
@@ -121,7 +121,7 @@ label {
 }
 
 #submit {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
 }
 
